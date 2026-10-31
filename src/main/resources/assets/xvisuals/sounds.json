@@ -1,0 +1,8 @@
+{
+  "hit_pop":    { "sounds": [ "xvisuals:hit_pop" ] },
+  "hit_ding":   { "sounds": [ "xvisuals:hit_ding" ] },
+  "hit_snap":   { "sounds": [ "xvisuals:hit_snap" ] },
+  "hit_blip":   { "sounds": [ "xvisuals:hit_blip" ] },
+  "hit_thud":   { "sounds": [ "xvisuals:hit_thud" ] },
+  "custom_hit": { "sounds": [ "xvisuals:custom_hit" ] }
+}

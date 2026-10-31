@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.xvisuals.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientWorldMixin",
+    "ClientWorldPropertiesMixin",
+    "WorldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

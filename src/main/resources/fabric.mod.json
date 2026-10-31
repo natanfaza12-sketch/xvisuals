@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "xvisuals",
+  "version": "${version}",
+  "name": "X Visuals",
+  "description": "Klientowy mod wizualny: własne niebo, aura, trail, dźwięk uderzenia i animowane GUI (Right Shift).",
+  "authors": ["Ty"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.xvisuals.XVisualsClient"]
+  },
+  "mixins": [
+    {
+      "config": "xvisuals.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
